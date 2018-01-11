@@ -1,13 +1,13 @@
-var buttonClass = document.getElementsByClassName('button');
-// console.log(buttonClass); 
+var withButtonClass = document.getElementsByClassName('button');
+// console.log(withButtonClass); 
 
-// console.log(buttonClass.length);
+// console.log(withButtonClass.length);
 
-for (var i = 0; i < buttonClass.length; i++) {
+for (var i = 0; i < withButtonClass.length; i++) {
 
-	alert(buttonClass[i].innerText);
+	alert(withButtonClass[i].innerText);
 
-	console.log(buttonClass[i].innerText)
+	console.log(withButtonClass[i].innerText)
 }
 
 
